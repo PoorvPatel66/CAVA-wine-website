@@ -14,6 +14,42 @@ Created On:        me and my friend
 Technologies:      HTML, CSS, JavaScript
 Files Included:    home.html, about.html, contact.html, login.html, register.html, CSS folder, JS folder, images, etc.
 
+
+-----------------------------------------------------
+PROJECT PHOTOS
+-----------------------------------------------------
+
+🌐 Website Preview
+
+🏠 Homepage
+
+![Homepage](./wine-web/assets/images/HomeHeader.png)
+
+- Hero section with promotional banner
+- Featured call-to-action: "Wine is one of the most civilized things"
+- "Shop Now" button
+- Info banners for shipping, support, and refund policy
+
+
+🛒 Product Listing
+
+![Products](./wine-web/assets/images/HomeMiddle.png)
+
+- Grid view of new wine products
+- Product name, price, and label tags (e.g., *New*, *Sale*)
+- Hover effects for interaction (zoom, add to cart)
+
+
+📞 Footer & About Us
+
+![Footer](./wine-web/assets/images/HomeFooter.png)
+
+- Brand partner section (Gucci, Pandora, etc.)
+- About the company
+- Contact details
+- Newsletter subscription form
+- Social media links
+
 -----------------------------------------------------
 PROJECT DESCRIPTION
 -----------------------------------------------------
