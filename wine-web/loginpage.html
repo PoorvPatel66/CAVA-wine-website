@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>log in</title>
+<script src="loginform.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,800&family=Roboto&display=swap" rel="stylesheet"> 
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  body{
+    background-image: url(assets/images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input{
+    width: 100%;
+    margin: 10px 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid white;
+    color: aliceblue;
+    outline: none;
+  }
+  ::placeholder{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  table {
+    padding: 30px;
+    background: transparent;
+    width: 450px;
+    margin: 210px auto;
+  }
+  .btn{
+    width: 45%;
+    color: rgb(9, 9, 87);
+    text-transform: capitalize;
+    margin: 0 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #abb7b8;
+    font-size: 18px;
+    border: transparent;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  td {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  span{
+    font-size: 12px;
+    font-weight: 300;
+  }
+</style>
+</head>
+<body>
+  <div id="main">
+      <div class="login">
+        <table cellspacing="2" align="center" cellpadding="8" border="0">
+          <tr>
+            <td>Username 
+              <br/><input type="text" placeholder="Enter user name here.............." class="input" id="uname" class="tb" /><br/>
+            </td>
+          </tr>
+          <tr>
+            <td>Password 
+              <br/><input type="password" placeholder="Enter Password here........." class="input" id="psw" class="tb" /><br/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <span class="psw" class="Password">Forgot <a href="#">password?</a></span><br><br/>
+                <input type="submit" value="Reset" onclick="clearFunc()" class="btn" />
+                <input type="submit" value="Login" class="btn" onClick="login()" />
+            </td>
+
+          </tr>
+        </table> 
+      </div>
+  </div>  
+</body>
+</html>
