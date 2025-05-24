@@ -60,17 +60,29 @@ FOLDER STRUCTURE
 -----------------------------------------------------
 
 /Vine-web
+
 │
+
 ├── home.html
+
 ├── about.html
+
 ├── contact.html
+
 ├── login.html
+
 ├── register.html
+
 ├── css/
+
 │   └── [All CSS styles]
+
 ├── js/
+
 │   └── [Optional JS files if any]
+
 ├── images/
+
 │   └── [All image assets]
 
 -----------------------------------------------------
