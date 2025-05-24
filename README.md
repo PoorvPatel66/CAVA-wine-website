@@ -3,7 +3,9 @@ Vine Wine is a sleek, responsive website designed to showcase premium wines. Bui
 
 
 =====================================================
+
                  WINE E-COMMERCE WEBSITE
+                 
 =====================================================
 
 Project Title:     CAVA - Online Wine Store
